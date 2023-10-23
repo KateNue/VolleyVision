@@ -168,7 +168,7 @@ model = RoboYOLO(model_name, model, conf)
 
 ### Trajectory of volleyball ###
 q = queue.deque()  # we need to save the coordinate of previous 7 frames
-for i in range(0, 8):
+for i in range(0, 0):
     q.appendleft(None)
 ###################
 
